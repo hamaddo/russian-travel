@@ -1,0 +1,12 @@
+.header__logo{
+    justify-self: start;
+    align-self: start;
+    width: 176px;
+    height: 100%;
+    fill: none;
+}
+@media screen and (max-width: 320px){
+    .header__logo{
+        transform: scale(0.8068);
+    }
+}

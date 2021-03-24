@@ -1,0 +1,6 @@
+.header__lang-links{
+    justify-self: start;
+    align-self: end;
+    grid-column: -1;
+    gap: 18px;
+}

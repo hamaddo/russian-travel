@@ -1,0 +1,10 @@
+.lead__caption{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    justify-self: start;
+}

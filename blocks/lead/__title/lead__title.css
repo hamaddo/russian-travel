@@ -2,5 +2,7 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 104%;
+    margin: auto;
     text-align: center;
+    max-width: 73%;
 }

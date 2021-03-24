@@ -5,10 +5,13 @@
     color: white;
     text-decoration: none;
     text-align: right;
+    transition: opacity .4s ease-out;
 }
 .header__lang-link:hover{
     text-decoration: underline;
+    opacity: .8;
 }
+
 @media screen and (max-width: 320px){
     .header__lang-link{
        line-height: 111%;

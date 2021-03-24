@@ -1,16 +1,13 @@
 
-    .page {
-        font-family: Inter, serif;
-        background-color: #2A2C2F;
-        display: grid;
-        color: white;
-        justify-items: center;
-        min-width: 1280px;
-        grid-template-ares:
-       "header . header"
-        ". lead ."
-        ". footer footer";
-    }
+.page {
+    font-family: Inter, serif;
+    background-color: #2A2C2F;
+    display: grid;
+    color: white;
+    justify-items: center;
+    min-width: 1280px;
+    grid-template-ares: "header . header" ". lead ." ". footer footer";
+}
 
 
 @media screen and (min-width: 1024px) {

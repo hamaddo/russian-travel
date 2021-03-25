@@ -1,6 +1,7 @@
 .lead{
     display: grid;
-    grid-template-rows: 3fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 256px 72px 1fr;
     justify-content: start;
     align-self: center;
 }

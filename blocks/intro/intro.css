@@ -1,0 +1,6 @@
+.intro{
+    display: grid;
+    grid-template-columns: 11% 90%;
+    grid-template-rows: 1fr 2fr 2fr;
+    justify-content: start;
+}

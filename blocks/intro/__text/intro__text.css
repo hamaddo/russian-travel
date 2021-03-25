@@ -1,0 +1,6 @@
+.intro__text{
+    grid-column: 2;
+    grid-row: 2;
+    width: 690px;
+    height: 208px;
+}

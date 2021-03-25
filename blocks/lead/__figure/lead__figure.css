@@ -1,5 +1,6 @@
 .lead__figure{
-    align-self: center;
+    align-self: start;
     justify-self: center;
-  
+    grid-column: 2;
+    grid-row: 3;
 }

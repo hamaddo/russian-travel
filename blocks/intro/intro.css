@@ -1,6 +1,17 @@
-.intro{
+.intro {
     display: grid;
-    grid-template-columns: 4% 1fr;
+    grid-template-columns: 11% 1fr;
     grid-template-rows: 1fr 2fr 2fr;
     justify-content: start;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        grid-template-columns: 4% 1fr;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro {
+        grid-template-columns: 1fr;
+    }
 }

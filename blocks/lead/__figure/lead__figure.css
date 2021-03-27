@@ -1,4 +1,5 @@
 .lead__figure{
+    margin: 0;
     align-self: start;
     justify-self: center;
     grid-column: 2;

@@ -1,7 +1,7 @@
 .place__title{
     margin: 0 0 48px;
     justify-self: start;
-    align-self: start;
+    align-self: end;
     max-width: 460px;
     font-weight: 900;
     font-size: 4.5rem;

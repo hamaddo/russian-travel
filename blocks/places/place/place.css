@@ -1,6 +1,7 @@
 .place{
-    margin: 0 148px;
+    margin: 0 auto;
     padding-left: 0;
+
     list-style: none;
     grid-column: 2/4;
     display: grid;

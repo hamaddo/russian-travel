@@ -1,8 +1,9 @@
 .footer{
     width: 90vw;
     justify-self: center;
+    justify-content: space-between;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: repeat(5,min-content) 2fr max-content;
     column-gap: 18px;
 }

@@ -4,3 +4,9 @@
     width: 690px;
     height: 208px;
 }
+@media screen and (max-width: 768px) {
+    .intro__text {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}

@@ -4,3 +4,9 @@
     padding-left: 0;
     list-style: none;
 }
+@media screen and (max-width: 768px) {
+    .intro__list {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}

@@ -1,5 +1,18 @@
 .lead__image {
     margin: 0 auto;
-    height: 90vh;
-    width: 90vw;
+    max-width: 984px;
+    max-height: 615px;
+    justify-self: center;
+}
+@media screen and (max-width: 1024px ) {
+    .lead__image {
+        max-width: 928px;
+        max-height: 580px;
+    }
+}
+@media screen and (max-width: 786px ) {
+    .lead__image {
+        max-width: 786px;
+        max-height: 480px;
+    }
 }

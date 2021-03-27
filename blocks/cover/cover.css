@@ -1,0 +1,10 @@
+.cover{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: repeat(5,1fr);
+    margin: auto;
+    width: 90vw;
+    height: 90vh;
+}

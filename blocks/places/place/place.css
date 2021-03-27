@@ -1,3 +1,13 @@
 .place{
-
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    grid-column: 2/4;
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 41% 40% ;
+    grid-template-rows: 10% 5% 15% 40%;
+    grid-auto-rows: 0;
+    justify-items: start;
+    align-items: start;
 }

@@ -1,3 +1,6 @@
 .place__paragraph{
-
+    margin: 0 auto 40px;
+    justify-self: start;
+    align-self: start;
+    grid-column: 2;
 }

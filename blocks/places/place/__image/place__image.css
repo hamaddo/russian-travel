@@ -3,4 +3,5 @@
     grid-row: 2;
     height: 460px;
     width: 460px;
+    justify-self: start;
 }

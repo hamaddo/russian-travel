@@ -9,3 +9,10 @@
     font-size: 96px;
     line-height: 104%;
 }
+@media screen and (max-width: 768px ) {
+    .photo-gallery {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        margin: 48px auto 0;
+    }
+}

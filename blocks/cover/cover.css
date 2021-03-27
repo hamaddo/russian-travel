@@ -1,8 +1,8 @@
 .cover{
+    margin: 92px auto 0;
     color: white;
     background-image: url("../../images/cover__background.png");
     background-size: cover;
-    margin: 0 auto;
     width: 90vw;
     height: 90vh;
 }

@@ -20,7 +20,7 @@
             <h1 class="lead__title">Путешествие по россии</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <figure class="lead__figure">
-                <img class="lead__image" src="./images/lead__image.svg" alt="Путешествие">
+                <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.png" alt="Путешествие">
                 <figcaption class="lead__caption">Наша полка - верхняя</figcaption>
             </figure>
         </section>
@@ -59,9 +59,11 @@
         <section class="places">
             <ul class="place">
                 <li><h2 class="place__title">Куршская коса</h2></li>
-                <li><p class="place__website__url-heading">URL</p></li>
-                <li><img src="./images/kurshskaya_kosa.png" class="place__image" alt="Фото"></li>
-                <li><a href="" class="place__website__link">park-kosa</a></li>
+                <li class="place__website">
+                    <p class="place__website__url-heading">URL</p>
+                    <a href="" class="place__website__link">park-kosa</a>
+                </li>
+                <li class="place__image"><img src="./images/kurshskaya_kosa.png" alt="Фото"></li>
                 <li class="place__paragraph"><p>Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
                     горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с
                     другой. Уникальная природная зона на краю российского анклава.</p>
@@ -72,9 +74,11 @@
             </ul>
             <ul class="place">
                 <li><h2 class="place__title">Кольский</h2></li>
-                <li><p class="place__website__url-heading">URL</p></li>
-                <li><img src="./images/kolsky.png" class="place__image" alt="Фото"></li>
-                <li><a href="" class="place__website__link">National Geographic</a></li>
+                <li class="place__website">
+                    <p class="place__website__url-heading">URL</p>
+                    <a href="" class="place__website__link">National Geographic</a>
+                </li>
+                <li class="place__image"><img src="./images/kolsky.png" alt="Фото"></li>
                 <li class="place__paragraph"><p>Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
                     которой на юг —
                     тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -89,9 +93,11 @@
             </ul>
             <ul class="place">
                 <li><h2 class="place__title">Алтай</h2></li>
-                <li><p class="place__website__url-heading">URL</p></li>
-                <li><img src="./images/altay.png" class="place__image" alt="Фото"></li>
-                <li><a href="" class="place__website__link">Facebook</a></li>
+                <li class="place__website">
+                    <p class="place__website__url-heading">URL</p>
+                    <a href="" class="place__website__link">Facebook</a>
+                </li>
+                <li class="place__image"><img src="./images/altay.png" alt="Фото"></li>
                 <li class="place__paragraph"><p>Алтай — одно из красивейших мест в России.
                     В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные
                     реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних
@@ -102,9 +108,11 @@
             </ul>
             <ul class="place">
                 <li><h2 class="place__title">Байкал</h2></li>
-                <li><p class="place__website__url-heading">URL</p></li>
-                <li><img src="./images/baikal.png" class="place__image" alt="Фото"></li>
-                <li><a href="" class="place__website__link">https://vk.com/baikalmile</a></li>
+                <li class="place__website">
+                    <p class="place__website__url-heading">URL</p>
+                    <a href="" class="place__website__link">https://vk.com/baikalmile</a>
+                </li>
+                <li class="place__image"><img src="./images/baikal.png" alt="Фото"></li>
                 <li class="place__paragraph"><p>Всем известен Байкал как крупнейшее озеро
                     в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
                     России.</p>
@@ -115,9 +123,11 @@
             </ul>
             <ul class="place">
                 <li><h2 class="place__title">Карелия</h2></li>
-                <li><p class="place__website__url-heading">URL</p></li>
-                <li><img src="./images/kareliya.png" class="place__image" alt="Фото"></li>
-                <li><a href="" class="place__website__link">http://vodlozero.ru/</a></li>
+                <li class="place__website">
+                    <p class="place__website__url-heading">URL</p>
+                    <a href="" class="place__website__link">http://vodlozero.ru/</a>
+                </li>
+                <li class="place__image"><img src="./images/kareliya.png" alt="Фото"></li>
                 <li class="place__paragraph"><p>Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                     сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса
                     карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам
@@ -130,11 +140,19 @@
         </section>
         <section class="cover">
             <div class="cover__overlay">
-            <h2 class="cover__title">До Байкала "на собаках"</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-                электричках.</p>
+                <h2 class="cover__title">До Байкала "на собаках"</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+                    электричках.</p>
             </div>
         </section>
+        <nav class="footer">
+            <a href="#" class="footer__link">Карты</a>
+            <a href="#" class="footer__link">Погода</a>
+            <a href="#" class="footer__link">Расписание</a>
+            <a href="#" class="footer__link">Календарь</a>
+            <a href="#" class="footer__link">Путешествия</a>
+            <p class="footer__copyright">&commat;2021. Тараченков Алексей</p>
+        </nav>
     </main>
 </div>
 </body>

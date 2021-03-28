@@ -1,11 +1,20 @@
-.footer__link{
+.footer__link {
     justify-self: start;
     text-decoration: none;
     color: white;
     font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
     transition: opacity .4s ease-in-out;
 }
 
-.footer__link:hover{
+.footer__link:hover {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        font-size: 1.5rem;
+        line-height: 100%;
+    }
 }

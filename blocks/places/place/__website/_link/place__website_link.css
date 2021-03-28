@@ -3,6 +3,8 @@
     grid-row: 2;
     color: white;
     transition: opacity .4s ease-in-out;
+    font-size: 1.125rem;
+    line-height: 122%;
 }
 .place__website__link:hover{
     opacity: 0.8;

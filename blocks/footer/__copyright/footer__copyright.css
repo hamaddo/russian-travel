@@ -2,4 +2,15 @@
     text-align: end;
     grid-column: 9/11;
     font-size: 0.875rem;
+    line-height: 114%;
+    margin: 0;
+}
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        text-align: start;
+        grid-column: 1;
+        grid-row: 2;
+        line-height: 100%;
+        margin: 48px 0 24px;
+    }
 }

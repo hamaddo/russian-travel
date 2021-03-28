@@ -24,5 +24,6 @@
     .place__image {
         max-height: 320px;
         max-width: 320px;
+        grid-row: 3;
     }
 }

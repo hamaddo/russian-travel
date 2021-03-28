@@ -1,5 +1,5 @@
 
-.header{
+.header {
     width: 92.5vw;
     max-height: 52px;
     display: grid;
@@ -7,19 +7,23 @@
     justify-items: end;
     align-items: center;
     grid-template-columns: 1fr 2fr;
+    justify-self: center;
 }
+
 @media screen and (max-width: 1024px) {
-    .header{
+    .header {
         width: 90.0625vw;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .header{
+    .header {
         width: 93.75vw;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .header{
+    .header {
         width: 90vw;
     }
 }

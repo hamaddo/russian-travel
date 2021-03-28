@@ -1,11 +1,11 @@
-.place__website {
+.website {
     max-width: 456px;
     align-self: end;
     margin-bottom: 48px;
 }
 
 @media screen and (max-width: 320px) {
-    .place__website {
+    .website {
         grid-row: 2;
         justify-self: start;
         margin-left: 16px;

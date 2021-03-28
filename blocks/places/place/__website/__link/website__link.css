@@ -1,4 +1,4 @@
-.website_link{
+.website__link{
     grid-column: 2;
     grid-row: 2;
     color: white;
@@ -6,6 +6,6 @@
     font-size: 1.125rem;
     line-height: 122%;
 }
-.website_link:hover{
+.website__link:hover{
     opacity: 0.8;
 }

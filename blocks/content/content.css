@@ -1,3 +1,6 @@
 .content{
     display: grid;
+    align-items: start;
+    justify-items: center;
+    width: 100vw;
 }

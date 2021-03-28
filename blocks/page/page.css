@@ -1,29 +1,10 @@
 
 .page {
+    display: grid;
     font-family: Inter, serif;
     background-color: #2A2C2F;
-    display: grid;
     color: white;
-    justify-items: center;
-    min-width: 1280px;
-    grid-template-ares: "header . header" ". lead ." ". footer footer";
+    width: 100vw;
 }
 
 
-@media screen and (min-width: 1024px) {
-    .page {
-        min-width: 1024px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .page {
-        min-width: 768px;
-    }
-}
-
-@media screen and (min-width: 320px) {
-    .page {
-        min-width: 320px;
-    }
-}

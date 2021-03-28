@@ -3,6 +3,9 @@
     grid-row: 3;
     padding-left: 0;
     list-style: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 150%;
 }
 @media screen and (max-width: 768px) {
     .intro__list {

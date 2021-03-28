@@ -3,6 +3,13 @@
     grid-column: 2;
     grid-row: 2;
     text-align: center;
-    margin: 32px auto 56px;
-    max-width: 65%;
+    margin: 32px auto 64px;
+    max-width: 640px;
+    font-size: 1.875rem;
+}
+@media screen and (max-width: 320px) {
+    .lead__subtitle{
+        grid-column: 1;
+        max-width: 288px;
+    }
 }

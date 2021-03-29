@@ -1,7 +1,6 @@
 .header__lang-link {
     margin: 18px 0 6px 18px;
-    line-height: 117%;
-    font-size: 24px;
+
     color: white;
     text-decoration: none;
     text-align: right;
@@ -13,9 +12,16 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     .header__lang-link {
         line-height: 111%;
         font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__lang-link {
+        line-height: 117%;
+        font-size: 24px;
     }
 }

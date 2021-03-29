@@ -3,9 +3,11 @@
     display: grid;
     max-width: 484px;
 }
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 320px) {
     .place__paragraph{
-        max-width: 456px;
+        max-width: 288px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -13,8 +15,8 @@
         max-width: 352px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .place__paragraph{
-        max-width: 288px;
+        max-width: 456px;
     }
 }

@@ -10,10 +10,10 @@
     .intro__text {
         grid-column: 1;
         grid-row: 2;
+        max-height: 520px;
     }
 }
 @media screen and (max-width: 320px) {
     .intro__text{
-        max-height: 520px;
     }
 }

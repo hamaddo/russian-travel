@@ -1,7 +1,7 @@
 .place__image{
     grid-column: 1;
     grid-row: 2;
-    max-height: 460px;
+    width: 100vw;
     max-width: 460px;
     justify-self: start;
 }
@@ -10,20 +10,17 @@
 @media screen and (max-width: 1024px ) {
     .place__image {
         max-height: 440px;
-        max-width: 440px;
     }
 }
 
 @media screen and (max-width: 768px ) {
     .place__image {
         max-height: 340px;
-        max-width: 340px;
     }
 }
 @media screen and (max-width: 320px ) {
     .place__image {
         max-height: 320px;
-        max-width: 320px;
         grid-row: 3;
     }
 }

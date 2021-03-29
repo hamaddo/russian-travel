@@ -1,20 +1,14 @@
 .place__paragraph {
     display: grid;
-    max-width: 484px;
     margin: 0 auto 40px;
     justify-self: start;
     align-self: start;
+    line-height: 163%;
     font-size: 1.125rem;
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place__paragraph {
-        font-size: 1rem;
-    }
-}
-@media screen and(max-width: 320px) {
-    .place__paragraph {
-        max-width: 288px;
         font-size: 1rem;
     }
 }

@@ -1,5 +1,5 @@
 .photo-grid {
-    max-width: calc(100vw - 5%);
+    max-width: 1184px;
     display: grid;
     align-self: center;
     justify-self: center;

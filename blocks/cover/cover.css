@@ -1,9 +1,9 @@
 .cover{
+    position: relative;
     color: white;
     background-image: url("../../images/cover-trains.jpg");
     background-size: cover;
     width: 100%;
-    min-height: 200px;
     display: grid;
     justify-items: center;
     justify-self: center;
@@ -13,19 +13,19 @@
 @media screen and (min-width: 320px) {
     .cover{
         margin: 66px 0 64px;
-        height: 200px;
+        min-height: 200px;
     }
 }
 @media screen and (min-width: 768px) {
     .cover{
         margin: 90px 0 88px;
-        height: 480px;
+        min-height: 480px;
     }
 }
 @media screen and (min-width: 1024px) {
     .cover{
         margin: 92px 0;
-        height: 640px;
+        min-height: 640px;
     }
 }
 @media screen and (min-width: 1280px) {

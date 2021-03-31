@@ -1,5 +1,8 @@
 .footer__links {
     display: grid;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 @media screen and (min-width: 320px) {

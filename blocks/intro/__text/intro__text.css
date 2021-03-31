@@ -1,19 +1,18 @@
-.intro__text{
+.intro__text {
     grid-column: 2;
     grid-row: 2;
     max-width: 690px;
-    max-height: 208px;
     font-size: 1rem;
     line-height: 163%;
 }
+
 @media screen and (max-width: 768px) {
     .intro__text {
         grid-column: 1;
-        grid-row: 2;
-        max-height: 520px;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .intro__text{
+    .intro__text {
     }
 }

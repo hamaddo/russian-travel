@@ -1,7 +1,10 @@
 .photo-grid {
+    margin: 0;
     display: grid;
     align-self: center;
     justify-self: center;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 @media screen and (min-width: 320px ) {

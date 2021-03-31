@@ -1,6 +1,4 @@
 .header__lang-link {
-    margin: 18px 0 6px 18px;
-
     color: white;
     text-decoration: none;
     text-align: right;
@@ -8,7 +6,6 @@
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
     opacity: .8;
 }
 

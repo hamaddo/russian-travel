@@ -1,6 +1,10 @@
 .header__lang-links{
+    display: grid;
+    grid-template-columns: repeat(2,min-content);
     justify-self: start;
     align-self: end;
     grid-column: -1;
-    gap: 18px;
+    column-gap: 18px;
+    list-style-type:none;
+    padding-left: 0;
 }

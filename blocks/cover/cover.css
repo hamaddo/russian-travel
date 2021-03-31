@@ -1,5 +1,4 @@
 .cover{
-    margin: 92px auto;
     color: white;
     background-image: url("../../images/cover-trains.jpg");
     background-size: cover;
@@ -13,13 +12,13 @@
 
 @media screen and (min-width: 320px) {
     .cover{
-        margin: 66px 0;
+        margin: 66px 0 64px;
         height: 200px;
     }
 }
 @media screen and (min-width: 768px) {
     .cover{
-        margin: 90px 0;
+        margin: 90px 0 88px;
         height: 480px;
     }
 }

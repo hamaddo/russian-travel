@@ -1,14 +1,16 @@
-.footer{
+.footer {
+    margin-bottom: 24px;
+    max-width: 1280px;
     width: 90vw;
     justify-self: center;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(2,max-content);
-
+    grid-template-columns: repeat(2, max-content);
 }
+
 @media screen and (max-width: 768px) {
     .footer {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2,min-content);
+        grid-template-rows: repeat(2, min-content);
     }
 }

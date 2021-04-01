@@ -1,6 +1,6 @@
-.website__url-heading{
+.website__url-heading {
     grid-column: 2;
-    grid-row:1;
+    grid-row: 1;
     align-self: end;
     color: #AAAAAA;
     font-size: 0.75rem;

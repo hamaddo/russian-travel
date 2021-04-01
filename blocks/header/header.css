@@ -1,7 +1,6 @@
 
 .header {
-    max-width: 1280px;
-    max-height: 52px;
+    max-width: 1184px;
     display: grid;
     margin-top: 28px;
     justify-items: end;

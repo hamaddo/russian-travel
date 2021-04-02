@@ -8,7 +8,7 @@
 @media screen and (min-width: 320px) {
     .intro {
         max-width: 288px;
-        justify-self: start;
+        justify-self: center;
         margin: 64px 16px;
     }
 }
@@ -16,7 +16,6 @@
 @media screen and (min-width: 768px) {
     .intro {
         max-width: 720px;
-        justify-self: center;
         margin: 88px auto 88px;
     }
 }

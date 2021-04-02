@@ -17,12 +17,5 @@
     .intro__title {
         font-size: 3.375rem;
         line-height: 107%;
-        grid-column: 1;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .intro__title {
-        grid-column: 2;
     }
 }
